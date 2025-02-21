@@ -1,0 +1,459 @@
+﻿ID,Objective,Classification,Requirements,Core Tags,Supplementary Tags,Mutually Exclusive With,Rules,Notes
+1,Unequip a cursed item,1,"Find cursed weapon
+Have money to unequip","Shopping, Collect_c",Curse,,,
+2,Restore party psynergy with 4 different psynergy stones,1,,Exploration,,,"Big Psy Crystals don't count, only little ones. i.e. must disappear on use",
+3,"Buy an item worth over 10,000 coins",1,,Shopping,,70,Includes forging,
+4,Inflict a status ailment on an enemy,1,,Battle,Status,,"Delusion, Stun, Poison, etc.",
+5,Purchase 5 different artifact type items,1,,Shopping,,,Includes forging,
+6,Have your party wipe in battle,1,,Battle,,,,
+7,Defeat Briggs,1,Free,"Battle, Boss, Briggs",,"21, 112, 154, 201, 135, 132, 134",,
+8,Get a Rainbow kill,1,,Battle,,,,
+10,Equip 3 different pieces of body armor to Jenna,9,,"Inventory, Collect_c, Character",,"9, 11, 12, 237, 238, 239, 240, 242, 247, 248",,
+11,Equip 3 different pieces of body armor to Sheba,9,,"Inventory, Collect_c, Character",,"9, 10, 12, 237, 238, 239, 240, 241, 248, 265",,
+12,Equip 3 different pieces of body armor to Piers,9,,"Inventory, Collect_c, Character",,"9, 10, 11, 237, 238, 239, 240, 187, 249, 265",,
+13,Deal over 500 damage to a single target in one hit,2,,Battle,,,,
+14,Fight three Aqua Jellies,2,,Battle,,207,,
+15,Use four different healing items in battle,2,,"Battle, Collect_c",,,"Herb, Corn, Nut, Vial, Potion, Mist Potion, Water of Life, Elixir, Antidote
+Healing item has to work e.g. Antidote needs to cure poison (?)",
+16,Defeat an enemy in the desert area of Hesperia,4,,"Battle, Exploration, Western Sea",,,,"The desert area to the north of Hesperia triggers a battle background the same as Ramses, this area"
+17,Break a piece of equipment,2,,"Battle, Collect_c",,,,
+18,Use the Trident in battle,2,,"Battle, Collect_s",,45,,
+19,Buff a stat to the max in a battle,2,,Battle,,,,
+20,Drain at least 1 PP or HP from an enemy,2,,Battle,Status,,,
+21,Defeat Chest Beaters,3,Whirlwind locked,"Whirlwind, Battle, Boss","Indra, Kandorean",,,
+22,Befriend the Taopo Swamp Djinn,3,Whirlwind locked,"Whirlwind, Battle, Djinn_l","Osenia, Taopo",,,
+23,Enter Airs Rock Tablet Room,3,Whirlwind locked,"Whirlwind, Exploration","Airs Rock, Osenia","24, 152, 227, 267",,
+24,"Collect the ""Flora Summon Tablet"" in Airs Rock",3,Whirlwind locked,"Whirlwind, Collect_l","Airs Rock, Puzzle, Osenia","23, 152, 227, 267",,
+25,Enter the cave in Gondowan Cliffs,3,Whirlwind locked,Whirlwind,"Gondowan, Exploration",,,
+26,Swing across any Vine or Chain,3,Whirlwind locked,Whirlwind,"Gaia Rock, Nihan",168,,
+27,Get knocked off a wall by a Moai in Gaia Rock,3,Whirlwind locked,Whirlwind,"Gaia Rock, Nihan, Fun, Puzzle",,,cyclone/idol??
+28,"Visit all locations with Islands, Isles & Islets in their name (9)",4,Grind/Hover,"Western Sea, Exploration",Islands,,,
+29,Enter Gondowan Cliffs from all four entrances,4,Grind/Hover,"Western Sea, Exploration",Gondowan,232,,
+30,Visit both Settlements,4,Grind/Hover,"Western Sea, Exploration",,"101, 159",,
+31,Open the SW Atteka chest,4,Grind/Hover,"Western Sea, Collect_l","Islands, Puzzle, Fun","35, 99",,
+32,Collect either overworld Djinn in Hesperia or Atteka,4,Grind/Hover,"Western Sea, Djinn_s, Battle",,33,,
+33,Collect all overworld Djinn,4,Grind/Hover,"Western Sea, Djinn_l, Battle",,32,,
+34,Obtain the item from the Corn vendor,4,Grind/Hover,Western Sea,Atteka,,,From the Contigo vendor
+35,Have the box in SW Atteka Float Away,4,Grind/Hover,Western Sea,"Islands, Puzzle, Fun","31, 99",,
+36,Speak to both baby adepts,4,"Grind/Hover
+Briggs","Western Sea, Briggs",,,"Eoleo (in ship after Briggs, in Champa after Avimander)
+Ahri (in Contigo)",
+37,Own 2 Shirts,5,RNG x2 (or x2 Game Tickets? { Grind/Hover}),Collect_c,,,,
+38,Own 4 Boots,5,RNG x2 (or x2 Game Tickets? { Grind/Hover}),Collect_c,,,,
+39,Own 3 Rings,5,RNG x2 (alternative: Forging),Collect_c,,,,
+42,Collect three items with different colors in their names,5,,Collect_c,,,"Color: Golden, Silver, Bronze, Red, Blue, Black",
+43,8 Stat Boosters,5,x8 RNG,Collect_c,,100,,
+44,Obtain the Corn,5,,Collect_s,Fun,,,The real Corn
+45,Have the Fortune Teller make a reading from two quest items,5,,"Collect_c, Exploration",Gondowan,"291, 18","Valid items: Sea Gods Tear, Aquarius Stone, Dancing Idol, Magma Ball, Red Key, Blue Key, Large Bread, Animal Trading Quest items, Mars Star, Black Crystal, Trident Pieces",
+46,Learn Zagan or Megaera,6,2 * RNG,"Summon, Collect_s",,"47, 48, 49, 179, 180, 233",,
+47,Learn Moloch or Flora,6,2 * RNG,"Summon, Collect_s",,"46, 48, 49, 179, 180, 233",,
+48,Learn Ulysses or Coatlicue,6,2 * RNG,"Summon, Collect_s",,"46, 47, 49, 174, 181, 233",,
+49,Learn Eclipse or Haures,6,2 * RNG,"Summon, Collect_s",,"46, 47, 48, 181, 233",,
+50,Obtain Meditation Rod or Thanatos Mace,6,2 * RNG,"Summon, Collect_s",,"217, 218, 51, 52, 216, 219, 220, 221, 222",,
+51,Obtain Masamune or Phaeton's Blade,6,2 * RNG,"Summon, Collect_s",,"217, 218, 50, 52, 216, 219, 220, 221, 222",,
+52,Obtain the Lightning Sword or the Storm Brand,6,2 * RNG,"Summon, Collect_s",,"217, 218, 51, 50, 216, 219, 220, 221, 222",,
+53,Forge with Tear Stone,7,RNG + Money,"Shopping, Forge",,"54, 55, 56, 57, 58, 59, 60, 74, 223, 276",,
+54,Forge with Dragon Skin,7,RNG + Money,"Shopping, Forge",,"53, 55, 56, 57, 58, 59, 60, 74, 223, 276",,
+55,Forge with Salamander Tail,7,RNG + Money,"Shopping, Forge",,"53, 54, 56, 57, 58, 59, 60, 74, 223, 276",,
+56,Forge with Sylph Feather,7,RNG + Money,"Shopping, Forge",,"53, 54, 55, 57, 58, 59, 60, 74, 223, 276",,
+57,Forge with Orihalcon,7,RNG + Money,"Shopping, Forge",,"53, 54, 55, 56, 58, 59, 60, 74, 223, 276",,
+58,Forge with Golem Core,7,RNG + Money (or from Loho but that should be randomized lol),"Shopping, Forge",,"53, 54, 55, 56, 57, 59, 60, 74, 223, 276",,
+59,Forge with Mythril Silver,7,RNG + Money,"Shopping, Forge",,"53, 54, 55, 56, 57, 58, 60, 74, 223, 163, 276",,
+60,Forge with Dark Matter,7,RNG + Money,"Shopping, Forge",,"53, 54, 55, 56, 57, 58, 59, 74, 223, 276",,
+61,Defeat each member of the Emu line,8,Airs Rock + Treasure Isle,Battle,"LineClear, Treasure Isle, Osenia","62, 63, 64, 65, 66, 67",,
+62,Defeat each member of the Kobold line,8,Osenia / Airs Rock + Treasure Isle,Battle,"LineClear, Treasure Isle, Gondowan","61, 63, 64, 65, 66, 67",,
+63,Defeat each member of the Wolfkin line,8,Gondowan Cliffs + Treasure Isle,Battle,"LineClear, Treasure Isle, Gondowan","61, 62, 64, 65, 66, 67",,
+64,Defeat each member of the Assassin line,8,Kibombo Mountains + Treasure Isle,Battle,"LineClear, Treasure Isle, Gondowan","61, 62, 63, 65, 66, 67",,
+65,Defeat each member of the Dinox line,8,Osenia + Tundaria,Battle,"LineClear, Tundaria, Osenia","61, 62, 63, 64, 66, 67",,Maybe too easy
+66,Defeat each member of the Momonga line,8,Osenia + Tundaria,Battle,"LineClear, Tundaria, Osenia","61, 62, 63, 64, 65, 67",,Maybe too easy
+67,Defeat each member of the Wyvern line,8,Gondowan Cliffs + Treasure Isle,Battle,"LineClear, Treasure Isle, Gondowan","61, 62, 63, 64, 65, 66",,
+68,Reach 139 Elemental Power in an element with any Adept,2,,Inventory,,"69, 71, 73",As verified by the status screen out of battle,
+69,Reach 149 Element Resist in an element with any Adept,2,,Inventory,,"68, 71, 73",As verified by the status screen out of battle,
+71,Have the party equipped with four different pieces of cursed equipment,2,,Collect_c,Curse,"68, 69, 73","Weapon, Body Armor, Arms, Head",
+73,Reach at least 30% crit chance on someone,2,,Inventory,,"68, 69, 71",,"Adjust crit value appropriately; intent, 2 items (but not super familiar with rarity)"
+74,Equip someone with two pieces of forged gear,7,,"Inventory, Forge",,"53, 54, 55, 56, 57, 58, 59, 60",,
+75,Befriend 7 Venus Djinn,12,RNG,Djinn_c,,"76, 77, 78, 183, 83, 84, 85, 80, 211, 82, 279, 277, 278",,
+76,Befriend 7 Mars Djinn,12,RNG,Djinn_c,,"75, 77, 78, 183, 86, 87, 88, 79, 211, 82, 277, 278, 280",,
+77,Befriend 7 Jupiter Djinn,12,RNG,Djinn_c,,"76, 75, 78, 183, 89, 90, 91, 82, 212, 80, 211, 277, 279, 280",,
+78,Befriend 7 Mercury Djinn,12,RNG,Djinn_c,,"76, 77, 75, 183, 92, 93, 94, 81, 212, 79, 211, 278, 279, 280",,
+79,Have an Ascetic and Cavalier in the party simultaneously,12,"Jupiter Adept + 4 Mars
+Mercury Adept + 4 Mars
++ minimum 10 djinn (13 with Piers)","Djinn_c, Class",,"80, 81, 82, 211, 212, 76, 78, 277, 278, 279, 280",,
+80,Have a Shaman and Enchanter in the party simultaneously,12,"Jupiter Adept + 4 Venus
+Mercury Adept + 4 Venus
++ minimum 10 djinn (13 with Piers)","Djinn_c, Class",,"79, 81, 82, 211, 212, 75, 77, 277, 278, 279, 280",,
+81,Have a Cavalier and Scholar in the party simultaneously.,12,"Venus Adept + 4 Mercury
+Mars Adept + 4 Mercury
++ minimum 10 djinn (13 with Piers)","Djinn_c, Class",,"79, 80, 82, 211, 212, 78, 77, 277, 278, 279, 280",,
+82,Have an Enchanter and a Savage in the party simultaneously.,12,"Venus Adept + 4 Jupiter
+Mars Adept + 4 Jupiter
++ minimum 10 djinn (13 with Piers)","Djinn_c, Class",,"80, 81, 79, 211, 212, 77, 277, 278, 279, 280, 75, 76",,
+83,"Befriend Flower, Crystal or Spritz",11,RNG (3/72),Djinn_s,,"75, 84, 85",,
+84,"Befriend Mold, Meld or Reflux",11,RNG (3/72),Djinn_s,,"75, 85, 83",,
+85,"Befriend Vine, Mud or Zephyr",11,RNG (3/72),Djinn_s,,"75, 84, 83",,
+86,"Befriend Char, Scorch or Squall",11,RNG (3/72),Djinn_s,,"76, 87, 88",,
+87,"Befriend Shine, Fever or Fog",11,RNG (3/72),Djinn_s,,"76, 88, 86",,
+88,"Befriend Corona, Kindle or Iron",11,RNG (3/72),Djinn_s,,"76, 87, 86",,
+89,"Befriend Ether, Aroma or Ember",11,RNG (3/72),Djinn_s,,"77, 90, 91",,
+90,"Befriend Lull, Kite, or Eddy",11,RNG (3/72),Djinn_s,,"77, 91, 89",,
+91,"Befriend Wheeze, Whorl or Bane",11,RNG (3/72),Djinn_s,,"77, 90, 89",,
+92,"Befriend Mist, Serac, or Fury",11,RNG (3/72),Djinn_s,,"78, 93, 94",,
+93,"Befriend Dew, Balm or Quartz",11,RNG (3/72),Djinn_s,,"78, 94, 92",,
+94,"Befriend Spring, Fizz or Breath",11,RNG (3/72),Djinn_s,,"78, 93, 92",,
+95,Enter Jupiter Lighthouse's basement purple room,10,"Cyclone
+Grind/Hover","Western Sea, Cyclone, Exploration","Jupiter, Atteka","100, 191, 192, 200, 255",,
+96,Enter Magma Interior,10,"Lift
+Grind/Hover","Western Sea, Lift","Magma Rock, Gondowan",,,
+97,Enter Djinn Check room in Anemos Inner Sanctum,10,"Grind/Hover
+Teleport or Reveal","Western Sea, Exploration, Teleport","Teleport, Reveal, Atteka","234, 235, 251",,
+98,"Sleep at four inns in the Western Sea (Contigo, Sh. Village, Loho, Prox)",10,"Grind/Hover
+Whirlwind
+Magma Ball","Western Sea, Whirlwind, Magma Ball, Exploration",,"226, 230",,
+99,Befriend the SW Atteka Djinn,10,"Lift
+{Grind/Hover}","Western Sea, Lift, Djinn_l",Islands,"31, 35, 143",,
+100,Collect 3 of 4 Vanilla Mints,10,"Apojii Islands (Cyclone)
+Jupiter Lighthouse (Cyclone)
+Jupiter Lighthouse Mad Plant (Grind/Hover, Cyclone)","Western Sea, Cyclone, Collect_l","Jupiter, Apojii, Atteka","107, 109, 43, 95",,
+101,Collect the Gondowan Settlement Chest,10,Cyclone + {Grind/Hover},"Western Sea, Cyclone, Collect_l",Gondowan,30,,
+102,Play a game in Contigo that requires a game ticket,5,"Grind/Hover
+Game Ticket","Western Sea, Collect_s",Atteka,102,,
+103,Get the shoal enclosed Rusty Weapon (Western Sea),5,Hover,"Hover, Collect_l",,,,
+104,See the shimmer of a revealed hidden item,13,Reveal,"Reveal, Collect_l","Garoh, Osenia",,,
+105,"Use Blaze on a fire (Naribwe, Magma or Mars)",13,Blaze,"Blaze, RarePsy",,,,
+107,Use any psynergy to collect an item 4 different towns,13,Many combinations,"Collect_l, Cyclone",,"100, 109","Town = has an inn
+Item must be accessed via using Psynergy (e.g. via solving puzzle). Retreat Glitch does not count. ",
+108,"Enter 4 caves in towns (Yallam, Izumo, Apojii, Mikas., Alhaf., Madra)",13,Lots of options,"Exploration, Reveal, Burst",,,"Town = has an inn.
+Valid: Madra Catacombs, Alhafra Cave, Izumo Ruins, Apojii Islands Cave, Miksalla's Cave, Anemos Inner Sanctum",
+109,Collect an item hidden by weeds from two different places,13,Cyclone,"Cyclone, Collect_l",,"100, 107",,
+110,Make it snow (Douse in a cold place),13,Douse,Douse,,,,
+111,Clear the dirt on all four arrows behind Gabomba Statue,13,"Scoop
+Lash",Scoop,"Lash, Kibombo, Gondowan",,,
+112,Defeat King Scorpion,13,Pound,"Pound, Boss, Battle","Yampi, Osenia","7, 21, 154, 201",,Candidate for replacement
+113,Collect the Lemuria Fountain Item,5,"Grind locked
+or Trident",Grind,Lemuria,"123, 139, 141, 173, 206",,
+114,Battle a Djinn you have cornered,13,Lash (minimum req),"Djinn_l, Lash","Lash, Pound, Parch","204, 199, 167, 119","Valid djinn: ""Breath"", ""Cannon"", ""Gasp"", ""Eddy"", ""Reflux"" ",
+115,Frost 3 water puddles in Daila,13,Frost,Frost,"Daila, Indra",,Not the sanctum,
+116,Befriend the Aqua Rock djinn,14,"Parch
+Douse","Parch, Douse","Aqua Rock, Apojii","117, 118, 119, 120, 121, 229, 133",,
+117,Drain the water in Mikasalla cave,14,"Parch
+Scoop","Parch, Scoop","Mikasalla, Osenia","116, 118, 119, 120, 121",,
+118,Reach the Aqua Rock Purple Room,14,"Douse
+Parch or Frost",Douse,"Parch, Frost, Aqua Rock, Apojii","116, 117, 119, 120, 121, 229, 133, 283",,
+119,Collect the Tundaria Tower djinn,14,Parch,"Parch, Battle, Djinn_l",Tundaria,"116, 117, 118, 120, 121, 106, 146, 213, 114, 281",,
+120,Collect the item from Atteka Cavern,14,"Parch
+Grind/Hover","Parch, Western Sea, Collect_l",Atteka,"116, 117, 118, 119, 121",,
+121,Use Parch to drain water in two separate areas,14,Parch + multiple conditions,Parch,,"116, 117, 118, 119, 120, 106, 146, 213, 281","Must remove the water
+Parch two bodies of water in the same dungeon (e.g. Tundaria) is not a valid completion",
+122,Climb the Lash rope in Apojii Islands,15,"Sand
+Lash 
+Whirlwind","Lash, Sand, Whirlwind","Apojii, RopeClimb","192, 123, 124, 125, 126, 127",,
+124,Climb the Lash rope onto the gear in Gabomba,15,"Lash
+Scoop","Lash, Scoop","Gabomba, Kibombo, Gondowan, RopeClimb","192, 122, 123, 125, 126, 127, 195, 140, 165, 271","The very first puzzle in Gabomba, that rope",
+125,Climb the Lash rope next to Moapa's house,15,"Western Sea
+Whirlwind
+Shaman's Rod
+Lash","Lash, Whirlwind, Shamans Rod, Western Sea","Shaman Village, Hesperia, RopeClimb","125, 192, 122, 123, 124, 126, 127, 257, 285",,
+126,Climb the Lash rope in the center of Madra Catacombs,15,"Lash
+Frost
+Reveal","Lash, Frost, Reveal","Madra, Indra, RopeClimb","192, 122, 123, 124, 125, 127",,
+127,Climb the Lash rope in Gondowan Cliffs,15,"Lash
+Frost or Scoop",Lash,"Frost, Scoop, Gondowan, RopeClimb","192, 122, 123, 124, 125, 126",,
+128,Get a Potion as a drop from an enemy,16,"Mad Plant (Gaia Rock; Dancing Idol + Cyclone)
+Avimander (Briggs' Boat)
+Foul Mummy (Jupiter Lighthouse)
+Sea Hedgehog (Treasure Isle)","Battle, Cyclone, Dancing Idol, Boss","Gaia Rock, Nihan",287,,
+129,Turn on all lights in Gaia Rock,16,"Dancing Idol
+Cyclone
+Whirlwind","Whirlwind, Cyclone, Dancing Idol","Gaia Rock, Nihan",287,,
+130,Use any Key,16,"Ruin Key (Reveal)
+Red Key (Cyclone, Hover, (Grind))
+Blue Key (Cyclone, Hover, (Grind))","Collect_s, RareItem, Reveal",,,,
+131,Give the Shaman's Rod to Moapa,16,"RNG
+Whirlwind
+Grind/Hover","Collect_s, Whirlwind, Western Sea","Shaman Village, Hesperia","125, 199, 202, 250, 257, 285",,
+132,Collect any chest in Alhafran Cave,16,"Briggs' Ship (Lash, Pound, Burst);
+or
+Large Bread (tremor)","Briggs, Collect_l, Lash, Pound","Tremor, Burst, Lash, Pound, Alhafra, Osenia","7, 134, 135",,
+133,Collect the Aqua Rock Tablet,16,"Aquarius Stone +
+Parch, Douse; or
+Frost, Douse","Collect_l, Douse","Frost, Parch, Apojii, Aqua Rock","116, 118, 229, 283",,
+134,Fix the Osenia bridge,16,Fix Briggs' ship,"Briggs, Burst, Pound, Lash",Osenia,135,Go and view the bridge,
+135,Get behind bars (Alhafran Jail),16,"Pound
+Lash
+Burst","Briggs, Burst","Osenia, Alhafra, Pound, Lash","7, 132, 134",,
+136,Mind Read an adept,16,Mind Read,Mind Read,,,"Legal: Piers, Karst, Alex, Ahri, Eoleo, Hama, Proxians, Susa, Kushinada, Uzume",Maybe wrong Tier? unsure where to place since MR is a weak psy
+137,Make Prox bright,16,"Hover/Grind
+Magma Ball
+Reveal","Western Sea, Magma Ball, Reveal","Prox, Northern Reaches",,"Cast reveal in Prox, then leave the reveal radius",
+138,Solve both Sand Raising puzzles in Ankohl,16,"Whirlwind
+Sand","Whirlwind, Sand","Puzzle, Ankohl, Angara","147, 224",,
+139,Befriend the djinn in Ancient Lemuria,17,"Grind
+Tremor
+Cyclone","Grind, Tremor, Cyclone, Djinn_l",Lemuria,"113, 123, 141, 173, 206",,
+140,Make Gabomba stick its tongue out,17,"Scoop
+Lash
+Pound","Exploration, Scoop, Lash, Pound, Gabomba","Kibombo, Gondowan, Puzzle","195, 124, 165, 258, 271, 289",,
+141,Collect both Lemurian Lucky Medals,17,"Grind or Poseidon
+Scoop","Grind, Scoop, Collect_l",Lemuria,"113, 123, 139, 173, 206",,
+143,Befriend 2 of 4 djinn in the GS1 catchup locations,17,"Jupiter (Grind/Hover + Lift)
+Venus (Grind + Lift)
+Mars (Lift, Growth, Burst)
+Mercury (Magma Ball, Grind/Hover)","Western Sea, Djinn_l, Lift","Grind, Growth, Burst, Magma Ball",99,,
+144,"""Open"" 3 Elemental Rocks",17,"Airs (WW)
+Aqua (Douse)
+Gaia (Dancing Idol)
+Magma (Lift)","Exploration, Lift, Whirlwind, Douse","Whirlwind, Douse, Dancing Idol, Lift","282, 283, 284",Gain access to the inner area of the Rock,Possibly rephrase to gain access to the interior of the rock …
+145,Catch the Kalt Island Apple,17,"Catch
+Grind/Hover","Catch, Western Sea, Collect_l, RarePsy",Islands,268,,
+146,Reach the top of Tundaria,18,"Parch
+Pound
+Reveal","Parch, Reveal, Collect_l","Tundaria, Pound","106, 119, 121, 213, 270, 281",,Consider removal
+147,Restore the Sandfall in the center of Ankohl Ruins,18,"Sand
+Whirlwind 
+Reveal (unless RG)","Sand, Whirlwind, Reveal, Collect_l","Ankohl, Angara","138, 224",,
+148,Activate the Hover Pads in Jupiter Lighthouse,18,"Cyclone
+Hover
+(Grind)","Cyclone, Hover","Western Sea, Jupiter, Atteka","191, 192, 200, 255, 95",,
+149,Receive any 2 Animal Trading Quest rewards,18,"Mind Read
+RNG x1","Collect_s, Mind Read",Islands,288,Pengu counts as one of the trading quests,
+150,Burst a Moai in Magma Rock,18,"Lift
+Burst","Western Sea, Lift, Burst","Magma Rock, Gondowan"," 170, 190, 228, 282",,
+151,Open the Fire Brand chest,18,"Grind
+Lift","Grind, Lift, Collect_l",Treasure Isle,,,Treasure Isle
+152,Open the Airs Rock Frost chest,18,"Whirlwind
+Frost","Whirlwind, Frost, Collect_l","Airs Rock, Osenia","23, 24, 152",,
+153,Befriend the djinn in Islet Cave outside of the corridor,18,"Lil'turtle
+MR","Turtle, Mind Read, Djinn_l",Islands,,,
+154,Defeat Aqua Hydra,18,"Frost
+Grind or Hover","Western Sea, Frost, Boss, Battle",Atteka,"7, 21, 112, 201",,
+155,Collect the Cloud Brand from behind Serpent,18,"Sand
+Growth","Sand, Growth, Collect_l","Gaia Rock, Nihan","198, 256",,
+156,Use teleport in 3 different locations,19,"Contigo (grind/hover)
+Yampi Desert Cave (sand)
+Islet Cave (Turtle, MR)
+Mars LH","Teleport, Exploration","Western Sea, Sand, Turtle, Mind Read, Magma Ball",,Mars Lighthouse counts only once,
+157,Say Hi to two Superbosses,19,"Star Magician (Grind, Lift)
+Valukar (Teleport, Sand, Burst)
+Sentinel (Turtle, Teleport, MR)
+Dullahan (lmao if Glitchless, Hover + Grind/Hover if Glitched)","Teleport, Exploration","Grind, Lift, Sand, Burst, Mind Read, Turtle",,Superboss on screen and interactable; you must die to Dullahan,
+158,Reach level 21 on at least 3 characters,1,,Battle,,,,Maybe move to another tier? 9 maybe?
+159,Collect the Hesperia Settlement Chest,19,"Grind/Hover
+Growth","Western Sea, Growth, Collect_l",Hesperia,30,,Candidate for removal
+160,Lift the Atteka inlet boulder or reveal the djinn,13,"Western Sea
+Cyclone
+Lift","Western Sea, Djinn_l, Lift","Atteka, Cyclone",,,
+161,Make a tiny Frost pillar,19,"Frost
+Growth
+Whirlwind","Frost, Growth, Whirlwind, Exploration","Taopo, Osenia",172,"In Taopo Swamp, when the Frost puddle is tiny - use Frost",
+162,Reach the top of Shrine of the Sea God,20,"Sea God's Tear
+Reveal
+Lash
+Frost","Frost, Lash, Reveal, Tear, Collect_l",Indra,,,
+163,Scoop the Loho Mythril Silver,20,"Grind/Hover
+Scoop
+Magma Ball","Western Sea, Lift, Scoop, Magma Ball, Collect_l","Loho, Angara",,,
+164,Yeet the Carry Stone into the void,4,Grind/Hover,"Western Sea, Carry","Angara, Fun, Puzzle",,,
+165,Befriend the Gabomba Catacombs djinn,20,"Gabomba (Scoop, Lash, Pound)
+Cyclone","Gabomba, Cyclone, Scoop, Pound, Djinn_l","Kibombo, Gondowan, Lash","195, 140, 124, 258, 271, 289",,
+166,Collect the Izumo Summon Tablet item,22,"Reveal
+Pound
+Sand
+Parch","Reveal, Pound, Sand, Parch, Frost, Collect_l","Izumo, Nihan",,,Candidate for removal
+167,Befriend the Shaman Village Cave djinn,20,"Whirlwind
+Frost
+Lift
+Grind/Hover","Whirlwind, Frost, Lift, Western Sea, Djinn_l","Shaman Village, Hesperia",114,,
+168,Swing across 2 different metal chains,22,"Grind/Hover
+Whirlwind + either; 
+Jupiter Lighthouse (Cyclone, Hover)
+Magma Rock (Lift, Growth, Burst)","Western Sea, Whirlwind, Exploration, Cyclone, Hover, RareItem, Reveal","Cyclone, Hover, Lift, Growth, Burst",26,Metal chain can be the same dungeon,
+169,Get both Djinn in Contigo,20,"Scoop (Salt)
+Force (Shine)
+{Grind/Hover}","Scoop, Force, Western Sea, Djinn_l, RarePsy","Atteka, Contigo",275,,
+170,Enter the Magma Rock Tablet Room,22,"{Grind/Hover}
+Lift
+Growth
+Burst
+Whirlwind","Western Sea, Lift, Growth, Burst, Whirlwind, Collect_l","Magma Rock, Gondowan","150, 190, 228, 282",,
+171,"Open the ""Teleport Lapis"" chest in Mars Lighthouse",22,"{Grind/Hover}
+Magma Ball
+Grind
+Pound
+Blaze OR Teleport","Western Sea, Magma Ball, Grind, Pound, Collect_l, RareItem","Blaze, Teleport, Mars, Northern Reaches, RarePsy",194,,
+172,Reach the last room of Taopo Swamp,22,"Whirlwind
+Frost
+Douse
+Tremor","Whirlwind, Frost, Douse, Tremor, Exploration, RarePsy","Taopo, Osenia","161, 190","Just reach the room, don't need the item",
+173,Mind Read the Cow in Lemuria,20,"MR
+Grind (or Trident)
+Growth","Mind Read, Grind","Lemuria, Fun, Growth","113, 123, 139, 141, 206",,
+174,Use Ulysses in battle,23,,"Summon, Battle, Djinn_c, Collect_s",,"175, 176, 177, 178, 179, 180, 181, 48",,
+175,Use Judgment in battle,23,,"Summon, Battle, Djinn_c",,"174, 176, 177, 178, 179, 180, 181",,
+176,Use Boreas in battle,23,,"Summon, Battle, Djinn_c",,"174, 175, 177, 178, 179, 180, 181",,
+177,Use Meteor in battle,23,,"Summon, Battle, Djinn_c",,"174, 175, 176, 178, 179, 180, 181",,
+178,Use Thor in battle,23,,"Summon, Battle, Djinn_c",,"174, 175, 176, 177, 179, 180, 181",,
+179,Use Flora in battle,23,,"Summon, Battle, Djinn_c, Collect_s",,"174, 175, 176, 177, 178, 180, 181, 47",,
+180,Use Moloch in battle,23,,"Summon, Battle, Djinn_c, Collect_s",,"174, 175, 176, 177, 178, 179, 181, 47",,
+181,Use a Tier 6 summon (or higher) in battle,23,"RNG
+RNG","Summon, Battle, Djinn_c, Collect_s",,"174, 175, 176, 177, 178, 179, 180, 49, 233",,
+182,Elevate someone to a twice upgraded Item Class,12,RNG ,"Class, Djinn_c, Collect_s",ClassItem,40,,i.e. 6 Djinn total on the person (min 16 djinn)
+183,Get at least 10 djinn of one element,21,RNG ,Djinn_c,,"75, 76, 77, 78",,
+184,Put someone into a tri-elemental class,12,RNG ,Djinn_c,,"277, 278, 279, 280",,
+185,Befriend 10 djinn that target enemies,21,RNG ,Djinn_c,,186,,
+186,Befriend 10 djinn that target your party,21,RNG ,Djinn_c,,185,,
+187,Give Piers 6 Djinn,9,RNG,"Djinn_c, Character",,"9, 10, 11, 12, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249",,
+188,Defeat Serpent,24,"Dancing Idol (RNG)
+Growth
+Cyclone
+Whirlwind","Battle, Boss, Whirlwind, Cyclone, Growth, Dancing Idol","Gaia Rock, Nihan",,,
+189,Defeat Avimander,24,"Briggs
+Boat (Lash, Pound, Burst)","Battle, Boss, Briggs, Lash, Pound, Burst","Champa, Angara",,,
+190,Turn a molten rock to ice,22,"Lift
+Growth
+Burst
+WW
+Blaze","Growth, Whirlwind, Collect_l","Magma Rock, Gondowan, Western Sea, Lift, Blaze, Burst, Douse, Frost","170, 172",,
+191,Fire an Arrow in Jupiter Lighthouse,24,"Red or Blue Key
+Cyclone
+Hover
+Pound / Grind maybe","Western Sea, Cyclone, Hover, Collect_s, RareItem","Pound, Jupiter, Atteka","148, 192, 200, 255, 258, 95",In Jupiter Lighthouse either wing,
+192,Climb the Lash rope in the Blue Door side of Jupiter Lighthouse,24,"Western Sea
+Blue Key
+Hover
+Cyclone
+Lash","Western Sea, Cyclone, Hover, Lash, RareItem","Jupiter, Atteka, RopeClimb","148, 191, 201, 122, 123, 124, 125, 126, 127, 255",,
+193,Obtain the Scoop item in Yampi Desert Cave,24,"Teleport
+Burst
+Scoop
+Sand","Teleport, Burst, Scoop, Sand, Collect_l","Yampi, Osenia",196,,
+194,Collect the Sol Blade chest (Mars LH ice puzzle item),25,"Pound
+Grind
+Burst
+Blaze
+Teleport","Teleport, Grind, Burst, Blaze, Pound, Collect_l, RarePsy","Mars, Northern Reaches",171,,
+195,Reach the end of Gabomba Catacombs,25,"Scoop
+Lash
+Pound
+Cyclone
+Reveal
+Frost","Gabomba, Cyclone, Scoop, Lash, Pound, Frost, Reveal, Collect_l","Kibombo, Gondowan","124, 140, 165, 271",,Can add despawn a puddle in Gabomba Catacombs
+196,Befriend the Yampi Desert Cave Djinn,25,"Sand
+Teleport
+Scoop
+Burst","Teleport, Sand, Scoop, Burst, Battle, Djinn_l","Yampi, Osenia","193, 225",,Easier than other 25s
+197,Befriend the Mars Lighthouse djinn in the ice puzzle,25,"Western Sea
+Magma Ball
+Grind
+Burst
+Pound
+Blaze","Western Sea, Magma Ball, Grind, Burst, Pound, Blaze, Djinn_l, Battle, RarePsy","Mars, Northern Reaches",,,
+198,Befriend the Islet Cave djinn in the corridor,25,"Turtle
+MR
+Teleport
+Tremor","Turtle, Mind Read, Teleport, Tremor, Battle, Djinn_l, RarePsy",Islands,"256, 153",,
+199,Befriend the Trial Road djinn,25,"Trial Road unlock (Whirlwind, Shaman Rod)
+Hover, Lift, Reveal","Western Sea, Whirlwind, Shamans Rod, Hover, Lift, Reveal, Battle, Djinn_l","Shaman Village, Hesperia","202, 114, 257, 131, 125, 250, 285",,
+200,Clear Jupiter Lighthouse,25,"{Grind/Hover}
+Hover
+Cyclone
+Pound
+Blue Key
+Red Key","Western Sea, Hover, Cyclone, Pound, Reveal, Collect_s, Exploration","Jupiter, Atteka","148, 191, 192, 255, 258, 95",,
+201,Defeat any 4 bosses,25,"Chestbeaters (WW)
+Briggs (free)
+King Scorp (pound)
+Aqua Hydra (Frost / Grind/Hover)
+Serpent (...) or Avimander (...) or Poseidon (...)
+or Superbosses KEKW","Boss, Battle","Whirlwind, Briggs, Pound, Frost, Western Sea, Lash, Burst, Cyclone","7, 21, 112, 154",,
+202,Defeat Moapa,25,"Shamans Rod
+{Grind/Hover}
+Whirlwind","Boss, Battle, Shamans Rod, Western Sea, Whirlwind","Shaman Village, Hesperia","125, 131, 199, 250, 257, 285",,
+203,Break all 3 bridges in Shrine of the Sea God,15,"Frost
+Lash","Frost, Lash","Fun, Exploration",,,
+204,Bonk into a djinn on an ice puzzle,13,"Magma Ball, Western Sea, Parch, Fun","Djinn_l, Parch","Magma Ball, Western Sea, Parch, Fun",114,Bonk does not mean you need to collect the djinn,
+205,Collect two Prongs,5,RNG x2,Prongs,,266,,
+206,Scoop up the bone in Lemuria,17,,"Scoop, Grind","Lemuria, Fun","123, 139, 141, 173, 113",,
+207,Use Frost on an Aqua Jelly puddle,10,,"Western Sea, Frost, Battle",,14,,
+208,Climb the Lash rope in Kalt Island,10,,"Western Sea, Lash, RopeClimb",Islands,,,
+209,Equip someone with two pieces of automatic HP/PP restoring gear,9,,Inventory,,,,
+210,Equip 3 party members with rusty weapons,9,,Inventory,,,,
+211,Have a Savage and a Scholar in the party simultaneously.,12,"Venus Adept + 4 Mars
+Mars Adept + 4 Venus
++ minimum 10 djinn (13 with Piers)","Djinn_c, Class",,"80, 81, 82, 79, 212, 75, 76, 277, 278, 279, 280",,
+212,Have a Scholar and an Ascetic in the party simultaneously.,12,"Mercury Adept + 4 Jupiter
+Jupiter Adept + 4 Mercury
++ minimum 10 djinn (13 with Piers)","Djinn_c, Class",,"80, 81, 82, 211, 79, 77, 78, 277, 278, 279, 280",,
+213,Burst the wall at the top of Tundaria,22,,"Parch, Pound, Reveal, Burst",,"106, 119, 121, 146, 270, 281",,
+214,Hop over a rock in S.Village Cave (hold down in lower area),10,,"Western Sea, Lift","Hesperia, Shaman Village",,,Hold down on the stone next to the puddle
+215,"Learn two of Azul, Catastrophe or Daedalus",6,,"Summon, Collect_s",,"46, 47, 48, 181, 233",,
+216,Collect the Valkyrie Mail or the Phantasmal Mail,6,,Collect_c,,"217, 218, 51, 52, 50, 219, 220, 221, 222",,
+217,Collect the Iris Robe or the Muni Robe,6,,Collect_c,,"216, 218, 51, 52, 50, 219, 220, 221, 222",,
+218,Collect the Erinyes Tunic or the Full Metal Vest,6,,Collect_c,,"217, 216, 51, 52, 50, 219, 220, 221, 222",,
+219,Collect the Nurse Cap or Thorn Crown,6,,Collect_c,,"217, 218, 51, 52, 50, 216, 220, 221, 222",,
+220,Collect the Clarity Circlet or Viking Helm,6,,Collect_c,,"217, 218, 51, 52, 50, 219, 216, 221, 222",,
+221,Collect the Jester's Armlet or the Bone Armlet,6,,Collect_c,,"217, 218, 51, 52, 50, 219, 220, 216, 222",,
+222,Collect the Spirit Gloves or the Fujin Shield,6,,Collect_c,,"217, 218, 51, 52, 50, 219, 220, 221, 216",,
+223,Forge with a Star Dust,7,,Forge,,"53, 54, 55, 56, 57, 58, 59, 74",,
+224,Get pushed back by the face in Ankohl Ruins,16,,"Sand, Whirlwind","Exploration, Angara, Ankohl","138, 147",,
+225,Be burrowed in sand while an enemy is burrowed in sand,16,,"Sand, Pound","Burst, Yampi, fun, Osenia",196,,Sand with Felix with King Scorp or Crystal on screen
+227,Get blown off a wall by a whirlwind,3,,Whirlwind,Airs Rock,"23, 24, 152",,
+228,Get blasted off of a wall by a fireball,20,,"Lift, Burst, Growth, Lash","Magma Rock, Gondowan"," 170, 190, 150, 282",,
+229,Get yeeted off of a wall by a stream of water,13,,Douse,"Aqua Rock, Apojii","116, 118, 133",,
+230,"Find cheese in two ovens (Mikasalla, Prox)",5,,"Western Sea, Magma Ball, RareItem","Exploration, Fun","98, 226",,
+231,Talk to three dogs (not Mind Read),5,,Grind,"Tremor, Fun",288,,"Lemuria, Kibombo Mountains, Gondowan Cliffs, W. Indra"
+232,Enter Poseidon's room from all three entrances,4,,Grind,"Fun, Exploration",29,,Lemuria
+233,Learn Iris or Charon,6,,"Summon, Collect_s",,"46, 47, 48, 181, 215",,
+234,"Complete a ""Mirror Puzzle"" in Anemos Inner Sanctum",10,"Grind/Hover, Teleport","Western Sea, Puzzle, Teleport",Atteka,"97, 235, 251",,
+235,Complete the cracked tile light maze in Anemos Inner Sanctum,10,"Grind/Hover, Teleport","Western Sea, Puzzle, Teleport",Atteka,"97, 234, 251",,
+236,Talk to all hint NPCs,24,,"Grind, Magma Ball, Whirlwind, Lash, Reveal, Pound, Scoop",Exploration,,,
+237,Equip 3 different pieces of body armor to Isaac,9,RNG,"Inventory, Collect_c, Character",Exploration,"243, 247, 249, 10, 11, 12, 238, 239, 240",,
+238,Equip 3 different pieces of body armor to Garet,9,RNG,"Inventory, Collect_c, Character",Exploration,"244, 247, 249, 10, 11, 12, 237, 239, 240",,
+239,Equip 3 different pieces of body armor to Ivan,9,RNG,"Inventory, Collect_c, Character",Exploration,"245, 249, 265, 9, 10, 11, 12, 237, 238, 240",,
+240,Equip 3 different pieces of body armor to Mia,9,RNG,"Inventory, Collect_c, Character",Exploration,"246, 248, 265, 9, 10, 11, 12, 237, 238, 239",,
+241,Give Sheba 6 Djinn,9,RNG,"Djinn_c, Character",Exploration,"11, 248, 265, 187, 242, 243, 244, 245, 246",,
+242,Give Jenna 6 Djinn,9,RNG,"Djinn_c, Character",Exploration,"10, 247, 248, 187, 241, 243, 244, 245, 246",,
+243,Give Isaac 6 Djinn,9,RNG,"Djinn_c, Character",Exploration,"237, 247, 249, 187, 241, 242, 244, 245, 246",,
+244,Give Garet 6 Djinn,9,RNG,"Djinn_c, Character",Exploration,"238, 247, 249, 187, 241, 242, 243, 245, 246",,
+245,Give Ivan 6 Djinn,9,RNG,"Djinn_c, Character",Exploration,"239, 249, 265, 187, 241, 242, 243, 244, 246",,
+246,Give Mia 6 Djinn,9,RNG,"Djinn_c, Character",Exploration,"240, 248, 265, 187, 241, 242, 243, 244, 245",,
+247,Find all Adepts from Vale,9,RNG,Character,Exploration,"248, 249, 250, 261, 262, 263, 264, 265, 237, 243, 249, 10, 242, 247, 248, 238, 244, 249",,
+248,Find all female Adepts,9,RNG,Character,Exploration,"247, 249, 250, 261, 262, 263, 264, 265, 240, 246, 265, 11, 241, 248, 265, 10, 242, 247",,
+249,Find all male Adepts,9,RNG,Character,Exploration,"247, 248, 250, 261, 262, 263, 264, 265, 237, 243, 247, 238, 244, 247, 239, 245, 265, 12, 187, 265",,
+250,Melt a Frost pillar,13,,"Western Sea, Whirlwind","Shaman Village, Taopo Swamp, Mars Lighthouse","125, 131, 199, 202, 257, 285",,
+251,"Solve the Hover ""bird"" puzzle prior to Dullahan",20,,"Reveal, Sand, Hover",Atteka,"97, 234, 235",,
+252,Use Tremor to collect an item,20,,"Tremor, RarePsy",,,,
+253,Climb a vine made with Growth,19,Growth,Growth,"Exploration, Western Sea, Lemuria",,,
+254,Defeat an Elite level Djinn,2,,"Battle, Djinn_c",,,,
+255,Fall through cracked tiles in three different dungeons,18,,"Western Sea, Cyclone, Hover","Reveal, Teleport, Red Key, Blue Key, Jupiter","95, 148, 191, 192, 200",,
+256,Go through one corridor in inner Islet Cave without Avoid active,18,,"Battle, Mind Read, Turtle",,"198, 153",,
+258,Take a selfie with Karst,17,,"Pound, Scoop","Lash, Whirlwind, Burst, Reveal, Hover, Blaze, Teleport","165, 140, 191, 200",,
+259,Attempt to return the Laughing Fungus to the old couple in Madra,5,,Exploration,,,,
+260,Get blown back by air vents in four different dungeons,25,,"Whirlwind, Douse, Frost","Airs Rock, Aqua Rock, Kandorean, Taopo",,,
+261,Find both Venus aligned adepts,9,,Character,Exploration,"247, 248, 249, 250, 262, 263, 264, 265",,
+262,Find both Mars aligned adepts,9,,Character,Exploration,"247, 248, 249, 250, 261, 263, 264, 265",,
+263,Find both Jupiter aligned adepts,9,,Character,Exploration,"247, 248, 249, 250, 261, 262, 264, 265",,
+264,Find both Mercury aligned adepts,9,,Character,Exploration,"247, 248, 249, 250, 261, 262, 263, 265",,
+265,Find all adepts not from Vale,9,,Character,Exploration,"247, 248, 249, 250, 261, 262, 263, 264, 12, 187, 249, 11, 241, 248, 240, 246, 248, 239, 245, 249",,
+266,"Assemble the ""Trident"" (no need to collect it)",25,,"Lash, Pound, Burst, Item_c, RareItem",,205,,
+267,Summon a Lightning Bolt (JL or Airs),3,,Whirlwind,Airs Rock,"23, 24, 152, 227",,
+268,Stack two blocks on top of each other to obtain an item.,17,,"RarePsy, Carry",Mind Read,145,,
+269,Go down three different hidden ladders,13,,Scoop,Cyclone,,,
+270,Blow up three walls with Burst,20,,Burst,,"106, 119, 121, 213",,
+271,Reverse the gears in Gabomba,16,,"Scoop, Pound","Gabomba, Kibombo, Gondowan, Lash","195, 124, 165, 140",,
+272,Ride geysers in three different areas,16,,"Scoop, Whirlwind","Pound, Burst",,,
+273,"Fill two walkable areas with different substances (two of water, sand, or magma)",18,,"Whirlwind, Douse, Parch","Frost, Burst, Growth, Lash",,,
+274,Fall down three cliffs at least three times the height of Felix (without a screen transition).,20,,"Douse, Whirlwind","Burst, Lift, Shaman's Rod",,,
+275,Reveal three hidden djinn,16,,"Djinn_l, Sccop, Cyclone","Reveal, Tremor, Force, RarePsy",169,,
+276,Have Sunshine forge three different materials,7,,RNG + Money,"Shopping, Forge","53, 54, 55, 56, 57, 58, 59, 60, 74, 223",,
+277,"Have someone be a Ninja (V, Ma, J)",12,,"Djinn_c, Class",,"75, 76, 77, 79, 70, 81, 82, 278, 279, 280, 184",,
+278,"Have someone be a Dragoon (V, Ma, Me)",12,,"Djinn_c, Class",,"75, 76, 78, 79, 70, 81, 82, 277, 279, 280, 184",,
+279,"Have someone be a Medium (Me, J, V)",12,,"Djinn_c, Class",,"75, 77, 78, 79, 70, 81, 82, 277, 278, 280, 184",,
+280,"Have someone be a Ranger (Me, J, Ma)",12,,"Djinn_c, Class",,"76, 77, 78, 79, 70, 81, 82, 277, 278, 279, 184",,
+281,Walk through a wall of ice,14,,Parch,"Reveal, Burst","119, 121, 146, 213",,
+282,Open the entrance at Magma Rock Summit ,20,,"Lift, Burst, Growth, Lash",,"144, 283, 170, 150",,
+283,Open the entrance to Aqua Rock Interior (whirlpool at the top),16,,"Douse, Frost",,"144, 282, 118, 133, 229",,
+285,Traverse both sides of Trial Road,13,,"Whirlwind, Shamans Rod, Western Sea",,"125, 131, 199, 202, 250",,
+287,Defeat 3 Mad Plants,19,,"Cyclone, Whirlwind",Dancing Idol,"128, 129",,
+288,Talk to (not Mind Read) each Animal in the trading sequence,15,,"Frost, Sand",,"231, 149",,
+289,Force tiles or blocks to pop out of the ground,17,,Pound,"Cyclone, Hover, Lash, Scoop","140, 165",,
+291,Bring the Black Crystal into the boat's engine room,5,,Western Sea,,45,,
