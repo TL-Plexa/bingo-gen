@@ -1,0 +1,370 @@
+Tag1,Tag2,Conflict_Count
+Class,Djinn_c,242
+Collect_s,Summon,160
+Forge,Shopping,144
+Character,Djinn_c,142
+Character,Collect_c,138
+Character,Inventory,138
+Battle,Summon,130
+Djinn_c,Summon,130
+Battle,Djinn_c,112
+Collect_c,Inventory,90
+Battle,Collect_s,78
+Western Sea,Whirlwind,78
+Collect_s,Djinn_c,74
+Cyclone,Western Sea,64
+Hover,Western Sea,60
+Cyclone,Hover,50
+Lash,Western Sea,50
+Pound,Scoop,48
+Collect_c,Collect_s,44
+Battle,Boss,42
+Collect_c,Summon,42
+Lash,Whirlwind,42
+Shamans Rod,Western Sea,42
+Shamans Rod,Whirlwind,42
+Battle,Western Sea,38
+Lash,Scoop,36
+Battle,Whirlwind,30
+Cyclone,Lash,30
+Cyclone,Pound,30
+Cyclone,Scoop,30
+Exploration,Western Sea,30
+Lash,Pound,30
+Lift,Western Sea,30
+Cyclone,Exploration,28
+Djinn_l,Western Sea,28
+Gabomba,Scoop,28
+Reveal,Western Sea,28
+Burst,Lift,26
+Collect_c,Djinn_c,26
+Collect_l,Whirlwind,26
+Collect_s,Western Sea,26
+Djinn_c,Inventory,26
+Gabomba,Pound,26
+Growth,Lift,26
+Burst,Collect_l,24
+Burst,Growth,24
+Djinn_c,Djinn_s,24
+Lift,Whirlwind,24
+Collect_l,Western Sea,22
+Douse,Parch,22
+Frost,Whirlwind,22
+Hover,Lash,22
+Boss,Western Sea,20
+Boss,Whirlwind,20
+Collect_s,Cyclone,20
+Cyclone,RareItem,20
+Djinn_l,Scoop,20
+Exploration,Hover,20
+Forge,RNG + Money,20
+Lash,Lift,20
+Lash,Reveal,20
+RareItem,Western Sea,20
+Reveal,Whirlwind,20
+Burst,Lash,18
+Collect_l,Cyclone,18
+Collect_l,Parch,18
+Collect_s,Hover,18
+Djinn_l,Parch,18
+Forge,Inventory,18
+Frost,Lash,18
+Lash,Shamans Rod,18
+Battle,Pound,16
+Burst,Parch,16
+Character,Western Sea,16
+Character,Whirlwind,16
+Djinn_l,Lash,16
+Exploration,Whirlwind,16
+Grind,Scoop,16
+Growth,Western Sea,16
+Growth,Whirlwind,16
+Hover,RareItem,16
+Hover,Whirlwind,16
+Inventory,Shopping,16
+Parch,Reveal,16
+Pound,Western Sea,16
+RNG + Money,Shopping,16
+Battle,Briggs,14
+Battle,Djinn_l,14
+Battle,Lash,14
+Battle,Parch,14
+Boss,Briggs,14
+Briggs,Pound,14
+Burst,Western Sea,14
+Burst,Whirlwind,14
+Collect_l,Djinn_l,14
+Collect_l,Douse,14
+Collect_l,Exploration,14
+Collect_l,Lift,14
+Collect_l,Pound,14
+Collect_l,Scoop,14
+Cyclone,Reveal,14
+Djinn_l,Pound,14
+Djinn_l,Whirlwind,14
+Exploration,Pound,14
+Gabomba,Lash,14
+Sand,Teleport,14
+Sand,Whirlwind,14
+Teleport,Western Sea,14
+Battle,Collect_l,12
+Battle,Shamans Rod,12
+Boss,Pound,12
+Briggs,Burst,12
+Briggs,Lash,12
+Burst,Pound,12
+Collect_l,Grind,12
+Collect_l,Lash,12
+Cyclone,Whirlwind,12
+Exploration,Scoop,12
+Hover,Pound,12
+Lash,RareItem,12
+Mind Read,Turtle,12
+Reveal,Scoop,12
+Battle,Burst,10
+Battle,Frost,10
+Collect_l,Growth,10
+Collect_s,Whirlwind,10
+Djinn_l,Mind Read,10
+Douse,Frost,10
+Exploration,Frost,10
+Exploration,Lash,10
+Exploration,RareItem,10
+Frost,Scoop,10
+Growth,Lash,10
+Hover,Reveal,10
+Lash,Sand,10
+Pound,Reveal,10
+Sand,Western Sea,10
+Scoop,Western Sea,10
+Battle,Mind Read,8
+Battle,Sand,8
+Battle,Turtle,8
+Boss,Frost,8
+Boss,Lash,8
+Collect_l,RarePsy,8
+Collect_s,Exploration,8
+Collect_s,Shamans Rod,8
+Cyclone,Gabomba,8
+Cyclone,Grind,8
+Djinn_l,Grind,8
+Djinn_l,Lift,8
+Djinn_l,Reveal,8
+Djinn_l,Shamans Rod,8
+Djinn_l,Turtle,8
+Douse,Growth,8
+Exploration,Growth,8
+Frost,Pound,8
+Grind,Mind Read,8
+Grind,Tremor,8
+Hover,Shamans Rod,8
+Parch,Pound,8
+Parch,Scoop,8
+Parch,Western Sea,8
+Pound,RareItem,8
+Puzzle,Teleport,8
+Puzzle,Western Sea,8
+RareItem,Whirlwind,8
+Reveal,Shamans Rod,8
+Sand,Scoop,8
+Battle,Reveal,6
+Boss,Shamans Rod,6
+Briggs,Collect_l,6
+Burst,Djinn_l,6
+Burst,Reveal,6
+Burst,Sand,6
+Collect_l,Frost,6
+Collect_l,Mind Read,6
+Collect_l,Sand,6
+Collect_l,Teleport,6
+Collect_l,Tremor,6
+Collect_s,Lash,6
+Collect_s,Pound,6
+Collect_s,RareItem,6
+Djinn_l,Sand,6
+Douse,Lift,6
+Douse,Whirlwind,6
+Exploration,Reveal,6
+Frost,Growth,6
+Growth,RarePsy,6
+Growth,Tremor,6
+Hover,Scoop,6
+Hover,Teleport,6
+Lift,Shamans Rod,6
+Mind Read,Sand,6
+Mind Read,Tremor,6
+RareItem,Reveal,6
+Reveal,Sand,6
+Reveal,Teleport,6
+Battle,Cyclone,4
+Battle,Douse,4
+Battle,Growth,4
+Battle,Hover,4
+Battle,Scoop,4
+Battle,Teleport,4
+Boss,Burst,4
+Boss,Cyclone,4
+Boss,Hover,4
+Burst,Douse,4
+Burst,Scoop,4
+Burst,Teleport,4
+Collect_c,Western Sea,4
+Collect_l,Gabomba,4
+Collect_l,Turtle,4
+Collect_s,Reveal,4
+Collect_s,Scoop,4
+Cyclone,Dancing Idol,4
+Cyclone,Djinn_l,4
+Cyclone,Frost,4
+Dancing Idol,Whirlwind,4
+Djinn_l,Douse,4
+Djinn_l,Frost,4
+Djinn_l,Gabomba,4
+Djinn_l,RarePsy,4
+Djinn_l,Teleport,4
+Douse,Exploration,4
+Douse,Lash,4
+Douse,Scoop,4
+Douse,Western Sea,4
+Exploration,Gabomba,4
+Exploration,Puzzle,4
+Exploration,Teleport,4
+Frost,Gabomba,4
+Frost,Lift,4
+Frost,Western Sea,4
+Gabomba,Reveal,4
+Grind,Pound,4
+Grind,Western Sea,4
+Growth,Mind Read,4
+Growth,Turtle,4
+Hover,Puzzle,4
+Lash,Parch,4
+Magma Ball,Western Sea,4
+Mind Read,RarePsy,4
+Mind Read,Scoop,4
+Mind Read,Teleport,4
+Pound,Teleport,4
+Puzzle,Reveal,4
+Puzzle,Sand,4
+RareItem,Scoop,4
+RarePsy,Turtle,4
+RarePsy,Western Sea,4
+RarePsy,Whirlwind,4
+Sand,Turtle,4
+Scoop,Teleport,4
+Scoop,Tremor,4
+Scoop,Whirlwind,4
+Teleport,Turtle,4
+Tremor,Turtle,4
+Tremor,Whirlwind,4
+Battle,Collect_c,2
+Battle,Djinn_s,2
+Battle,Exploration,2
+Battle,Lift,2
+Battle,RareItem,2
+Battle,RarePsy,2
+Battle,Tremor,2
+Blaze,Collect_l,2
+Blaze,Grind,2
+Blaze,Magma Ball,2
+Blaze,Pound,2
+Blaze,RareItem,2
+Blaze,Western Sea,2
+Boss,Collect_l,2
+Boss,Collect_s,2
+Boss,Djinn_l,2
+Boss,Lift,2
+Boss,RareItem,2
+Boss,Reveal,2
+Briggs,Frost,2
+Briggs,Western Sea,2
+Briggs,Whirlwind,2
+Burst,Exploration,2
+Burst,Frost,2
+Burst,Grind,2
+Burst,Magma Ball,2
+Burst,Prongs,2
+Burst,RareItem,2
+Carry,Catch,2
+Carry,Collect_l,2
+Carry,RarePsy,2
+Carry,Western Sea,2
+Catch,RarePsy,2
+Collect_c,Collect_l,2
+Collect_c,Cyclone,2
+Collect_l,Forge,2
+Collect_l,Magma Ball,2
+Collect_l,RareItem,2
+Collect_l,Reveal,2
+Collect_l,Shopping,2
+Collect_s,Djinn_l,2
+Collect_s,Frost,2
+Collect_s,Lift,2
+Collect_s,Sand,2
+Cyclone,Force,2
+Cyclone,Mind Read,2
+Cyclone,RarePsy,2
+Cyclone,Sand,2
+Cyclone,Shamans Rod,2
+Djinn_l,Djinn_s,2
+Djinn_l,Exploration,2
+Djinn_l,Force,2
+Djinn_l,Growth,2
+Djinn_l,Hover,2
+Djinn_l,Sccop,2
+Djinn_l,Tremor,2
+Djinn_s,Western Sea,2
+Exploration,Grind,2
+Exploration,Lift,2
+Exploration,Magma Ball,2
+Exploration,RarePsy,2
+Exploration,Sand,2
+Exploration,Tremor,2
+Force,Sccop,2
+Forge,Lift,2
+Forge,Magma Ball,2
+Forge,Scoop,2
+Forge,Western Sea,2
+Frost,Grind,2
+Frost,Hover,2
+Frost,Mind Read,2
+Frost,RareItem,2
+Frost,RarePsy,2
+Frost,Sand,2
+Frost,Shamans Rod,2
+Frost,Tremor,2
+Grind,Magma Ball,2
+Grind,RareItem,2
+Grind,RarePsy,2
+Grind,Sand,2
+Grind,Teleport,2
+Growth,Teleport,2
+Hover,Sand,2
+Inventory,RNG + Money,2
+Item_c,Prongs,2
+Lash,Prongs,2
+Lift,Shopping,2
+Magma Ball,Pound,2
+Magma Ball,RareItem,2
+Magma Ball,RarePsy,2
+Magma Ball,Shopping,2
+Magma Ball,Teleport,2
+Magma Ball,Whirlwind,2
+Pound,Prongs,2
+Pound,RarePsy,2
+Pound,Sand,2
+Pound,Whirlwind,2
+Prongs,RareItem,2
+RareItem,RarePsy,2
+RareItem,Sand,2
+RareItem,Shamans Rod,2
+RareItem,Teleport,2
+RarePsy,Sand,2
+RarePsy,Sccop,2
+Sand,Shamans Rod,2
+Sand,Tremor,2
+Sccop,Scoop,2
+Sccop,Western Sea,2
+Scoop,Shamans Rod,2
+Scoop,Shopping,2
+Shopping,Western Sea,2
