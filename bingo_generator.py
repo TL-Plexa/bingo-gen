@@ -22,6 +22,40 @@ summon_exclusions = {
     "Use a Tier 6 summon (or higher) in battle": ["Coatlicue", "Azul", "Daedalus", "Catastrophe", "Charon", "Iris"]
 }
 
+# Define lucky medal locations
+lucky_medal_locations = ["Alhafra", "Gondowan Settlement", "Shaman Village", "Izumo", "Kibombo"]
+
+# Define weapons and armors for randomization
+randomizable_weapons = [
+    "Blow Mace", "Thanatos Mace", "Meditation Rod", "Masamune", "Sol Blade", "Fire Brand", 
+    "Lightning Sword", "Storm Brand", "Pirate's Sword", "Hypnos' Sword", "Mist Sabre", 
+    "Phaeton's Blade", "Themis' Axe", "Disk Axe"
+]
+
+randomizable_armors = [
+    "Ixion Mail", "Phantasmal Mail", "Valkyrie Mail", "Full Metal Vest", "Erinyes Tunic", 
+    "Muni Robe", "Iris Robe", "Bone Armlet", "Jester's Armlet", "Spirit Gloves", 
+    "Fujin Shield", "Nurse's Cap", "Thorn Crown", "Alastor's Hood", "Clarity Circlet", 
+    "Viking Helm"
+]
+
+# Define which objectives should be replaced with random equipment
+weapon_objectives_to_replace = [
+    "Obtain the Meditation Rod or the Thanatos Mace",
+    "Obtain the Masamune or the Phaeton's Blade",
+    "Obtain the Lightning Sword or the Storm Brand"
+]
+
+armor_objectives_to_replace = [
+    "Collect the Valkyrie Mail or the Phantasmal Mail",
+    "Collect the Iris Robe or the Muni Robe",
+    "Collect the Erinyes Tunic or the Full Metal Vest",
+    "Collect the Nurse Cap or Thorn Crown",
+    "Collect the Clarity Circlet or Viking Helm",
+    "Collect the Jester's Armlet or the Bone Armlet",
+    "Collect the Spirit Gloves or the Fujin Shield"
+]
+
 # Keep track of excluded summons based on selected objectives
 excluded_summons = set()
 
@@ -328,7 +362,66 @@ def generate_class_objectives(num_objectives):
         used_types.add(obj_type)
     
     return objectives    
+
+def modify_lucky_medal_objectives(selected_objectives):
+    """
+    Find and modify lucky medal objectives to include random locations.
     
+    Args:
+        selected_objectives: List of selected objective dictionaries
+    
+    Returns:
+        List of objectives with lucky medal objectives modified
+    """
+    pattern = re.compile(r"Collect a lucky medal from .*", re.IGNORECASE)
+    
+    for i, obj in enumerate(selected_objectives):
+        if pattern.match(obj['name']):
+            # Choose two random locations
+            locations = random.sample(lucky_medal_locations, 2)
+            # Update the objective name
+            selected_objectives[i]['name'] = f"Collect the lucky medal from {locations[0]} and {locations[1]}"
+            print(f"Modified lucky medal objective: {selected_objectives[i]['name']}")
+    
+    return selected_objectives
+
+def modify_equipment_objectives(selected_objectives):
+    """
+    Find and modify weapon and armor objectives to include random equipment.
+    
+    Args:
+        selected_objectives: List of selected objective dictionaries
+    
+    Returns:
+        List of objectives with equipment objectives modified
+    """
+    modified_count = 0
+    
+    # Process weapons first
+    for i, obj in enumerate(selected_objectives):
+        if obj['name'] in weapon_objectives_to_replace:
+            # Choose two random weapons
+            weapons = random.sample(randomizable_weapons, 2)
+            # Update the objective name
+            selected_objectives[i]['name'] = f"Obtain the {weapons[0]} or {weapons[1]}"
+            print(f"Modified weapon objective: {selected_objectives[i]['name']}")
+            modified_count += 1
+    
+    # Then process armors
+    for i, obj in enumerate(selected_objectives):
+        if obj['name'] in armor_objectives_to_replace:
+            # Choose two random armors
+            armors = random.sample(randomizable_armors, 2)
+            # Update the objective name
+            selected_objectives[i]['name'] = f"Obtain the {armors[0]} or {armors[1]}"
+            print(f"Modified armor objective: {selected_objectives[i]['name']}")
+            modified_count += 1
+    
+    if modified_count > 0:
+        print(f"Total equipment objectives modified: {modified_count}")
+    
+    return selected_objectives
+
 def select_random_objectives(bingo_list, race_mode=False, remove_easy=False, harder_board=False, 
                            tag_limits=None, bucket_mode=False, bucket_hard_mode=False, 
                            exclude_boss_objectives=False, randomize_djinn=False):
@@ -657,7 +750,13 @@ def select_random_objectives(bingo_list, race_mode=False, remove_easy=False, har
             if any(obj == cat6_obj for cat6_obj in bingo_list.get(6, [])) and should_replace_objective(obj):
                 # Replace with a simple summon objective
                 selected_objectives[i] = {"name": generate_summon_objective()}
-
+                
+    # Modify any lucky medal objectives to include random locations
+    selected_objectives = modify_lucky_medal_objectives(selected_objectives)
+    
+    # Modify any equipment objectives to include random items
+    selected_objectives = modify_equipment_objectives(selected_objectives)
+                            
     return selected_objectives
 
 def main():
@@ -704,11 +803,11 @@ def main():
     
     # Define tag limits
     tag_limits = {
-        "Whirlwind": "5", "Lash": "2", "Pound": "2", "Scoop": "2", "Reveal": "2",
+        "Whirlwind": "5", "Lash": "2", "Pound": "3", "Scoop": "2", "Reveal": "2",
         "Douse": "2", "Frost": "2", "Growth": "1", "Cyclone": "2", "Sand": "2",
         "Parch": "2", "Burst": "2", "Grind": "-", "Hover": "-",
-        "Lift": "1", "Carry": "1", "Force": "1", "Blaze": "2", "Teleport": "2",
-        "Mind Read": "1", "RarePsy": "1"
+        "Lift": "2", "Carry": "1", "Force": "1", "Blaze": "2", "Teleport": "2",
+        "Mind Read": "1", "RarePsy": "2"
     }
     
     selected_objectives = select_random_objectives(
@@ -745,6 +844,30 @@ def main():
     for classification, count in classification_count.items():
         if count > 2:
             print(f"Warning: Classification {classification} has {count} objectives (more than 2)")
+            
+    # Print any lucky medal objectives that were modified
+    lucky_medal_objectives = [obj for obj in selected_objectives if "lucky medal from" in obj['name'].lower()]
+    if lucky_medal_objectives:
+        print("\nLucky Medal objectives:")
+        for obj in lucky_medal_objectives:
+            print(f"- {obj['name']}")
+            
+    # Print any equipment objectives that were modified
+    weapon_objectives = [obj for obj in selected_objectives if obj['name'].startswith("Obtain the") 
+                        and any(weapon in obj['name'] for weapon in randomizable_weapons)]
+
+    armor_objectives = [obj for obj in selected_objectives if obj['name'].startswith("Obtain the") 
+                       and any(armor in obj['name'] for armor in randomizable_armors)]
+
+    if weapon_objectives:
+        print("\nWeapon objectives:")
+        for obj in weapon_objectives:
+            print(f"- {obj['name']}")
+
+    if armor_objectives:
+        print("\nArmor objectives:")
+        for obj in armor_objectives:
+            print(f"- {obj['name']}")
 
 if __name__ == "__main__":
     main()
